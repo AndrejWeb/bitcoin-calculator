@@ -104,7 +104,7 @@
 
         function display(btc, btc_price)
         {
-            btc_calc_elem.html('1 BTC = ' + btc_price + ' USD<hr/> <i class="fa fa-btc" aria-hidden="true"></i> <strong>' + btc + '</strong> = <i class="fa fa-usd" aria-hidden="true"></i> <strong>' + (btc * btc_price) + '</strong> ');
+            btc_calc_elem.html('1 BTC = ' + btc_price.toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + ' USD<hr/> <i class="fa fa-btc" aria-hidden="true"></i> <strong>' + btc + '</strong> = <i class="fa fa-usd" aria-hidden="true"></i> <strong>' + (btc * btc_price).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + '</strong> ');
             btc_calc_elem.show();
         }
 
