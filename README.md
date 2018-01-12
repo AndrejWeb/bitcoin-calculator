@@ -1,7 +1,7 @@
 # Bitcoin Calculator
 
 Pretty self-explanatory screenshot.
-![Bitcoin Calculator](https://i.imgur.com/tLpHHpj.png)
+![Bitcoin Calculator](https://i.imgur.com/EoqlcMM.png)
 
 Project URL: http://andrejphp.dx.am/bitcoin-calculator/
 
